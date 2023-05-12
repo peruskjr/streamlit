@@ -76,3 +76,5 @@ if st.button('Predict'):
 
     else:
         st.write('<p class="big-font">You are likely to develop heart disease in 10 years.</p>',unsafe_allow_html=True)
+        
+st.markdown("This was built from a tutorial I found online and hosted on Github. It provided a way to learn how to use a machine learning algorithim within a framework like Streamlit. It is worth noting that the dataset used to train this model was massively imbalaced. Random over sampling was used.")
