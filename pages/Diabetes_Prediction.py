@@ -60,3 +60,5 @@ if st.button('Predict'):
 
     else:
         st.write('<p class="big-font">You likely do have diabetes.</p>',unsafe_allow_html=True)
+        
+st.markdown("This is my own version of the Heart Disease Prediction application. I found a diabetes dataset on Kaggle built from Electronic Health Records (EHRs) collected from multiple health care providers. I used a random forest classifier that has 97% accuracy from the provided data.")
